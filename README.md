@@ -17,10 +17,7 @@ _ the script takes as input a <b>coma-separated</b> matrix of <b>normalised</b> 
 ```
 python3 SCBD.py -m normalised_matrix.csv
 ```
-It returns 2 output files:
-
-_ out_SCBD_values.tsv tab-delimited file containing the SCBD values, sorted by decreasing order
-_ out_SCBD_matrix.csv your normalised matrix with features sorted by decreasing SCBD values
+It returns 2 output files: out_SCBD_values.tsv (tab-delimited file containing the SCBD values, sorted by decreasing order) and out_SCBD_matrix.csv (your normalised matrix with features sorted by decreasing SCBD values)
 
 _ have a look at the distribution of SCBD values and determine the threshold below which the features should be discarded. It usually corresponds to the inflexion point of the distribution.
 
