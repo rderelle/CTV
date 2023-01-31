@@ -5,7 +5,7 @@ SCBD
 ## Description
 
 This script computes the SCBD values for all features of a given normalised matrix, as described in <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.12141">Legendre and De Càceres 2013</a>, after tranformation of normalised counts using the Hellinger transformation.
-The SCBD values give an estimate of the feature contributions to the overall signal, allowing to extract the most contributing features of a large dataset. The features can be species abundances, gene expression levels or any feature quantified by sequencing data. 
+The SCBD values give an estimate of the feature contributions to the overall signal, allowing to extract the most contributing features from a large dataset. The features can be species abundances, gene expression levels or any feature quantified by sequencing data. 
 
 
 ## Requirement
